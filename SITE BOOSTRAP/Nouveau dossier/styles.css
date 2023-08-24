@@ -1,0 +1,158 @@
+/* Styles.css */
+
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+
+  /* Footer Section styles */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .footer__about p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .footer__widget h6 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer__widget ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__widget ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer__newslatter input[type="text"],
+  .footer__newslatter button {
+    padding: 10px;
+    border: none;
+  }
+  
+  .footer__newslatter button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer__newslatter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer__social {
+    margin-top: 10px;
+  }
+  
+  .footer__social a {
+    margin-right: 10px;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  /* Copyright Section */
+  .row__copyriht {
+    background-color: #c20b0b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .row__copyriht p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+
+/* Product Card styles */
+.product-card {
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .product-icons a {
+    margin-right: 10px;
+    color: #555;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-card:hover .description {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+/*----------Rubrique commande-------*/
+/* Copiez ici le code CSS que je vous ai précédemment fourni */
+
+/* Commandes Table styles */
+.commandes-section {
+  padding: 50px 0;
+}
+
+.commandes-section h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+/* Rubriques styles */
+.rubriques {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+}
+
+.rubrique {
+  text-align: center;
+}
+
+.rubrique i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.rubrique a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.rubrique a:hover {
+  color: #007bff;
+}

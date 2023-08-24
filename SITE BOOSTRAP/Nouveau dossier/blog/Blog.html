@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Logo">
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/INDEX.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Nouveau dossier/Boutique.html">Boutiques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Nouveau dossier/blog/Blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/INDEX.html#Propos">À propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/INDEX.html#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/INDEX.html#formContent">Se connecter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-search"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+    </nav>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Article 1 -->
+                    <div class="blog-card">
+                        <img src="blog-image-1.jpg" class="card-img-top" alt="Article 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Titre de l'article 1</h5>
+                            <p class="card-text">Description de l'article 1.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                    </div>
+                    <!-- Répétez ce bloc pour chaque article -->
+                    <div class="blog-card">
+                        <img src="blog-image-2.jpg" class="card-img-top" alt="Article 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Titre de l'article 2</h5>
+                            <p class="card-text">Description de l'article 2.</p>
+                            <a href="#" class="btn btn-primary">Lire l'article</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Sidebar -->
+                    
+                    <!-- ... Ajoutez ici la sidebar avec les catégories, les archives, etc. ... -->
+                      <div class="sidebar">
+                          <h4>Catégories</h4>
+                          <ul>
+                              <li><a href="#">Mode</a></li>
+                              <li><a href="#">Beauté</a></li>
+                              <li><a href="#">Tendances</a></li>
+                              <!-- ... Ajoutez d'autres catégories ... -->
+                          </ul>
+                          <div class="archive">
+                              <h5>Archives</h5>
+                              <ul>
+                                  <li><a href="#">Janvier 2023</a></li>
+                                  <li><a href="#">Février 2023</a></li>
+                                  <li><a href="#">Mars 2023</a></li>
+                                  <li><a href="#">Avril 2023</a></li>
+                                  <!-- ... Ajoutez d'autres archives ... -->
+                              </ul>
+                          </div>
+                      </div>
+                  </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+</section>
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="footer__about">
+            <div class="footer__logo">
+              <a href="./index.html"><img src="logo.png" alt="Logo"></a>
+            </div>
+            <p>Votre Destination Mode pour Toute la Famille Bienvenue dans l'univers envoûtant de la mode où le style, la qualité et la diversité se rencontrent.</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer__widget">
+            <h6>Liens rapides</h6>
+            <ul>
+              <li><a href="/INDEX.html#Propos">À propos</a></li>
+              <li><a href="/Nouveau dossier/blog/Blog.html">Blog</a></li>
+              <li><a href="/INDEX.html#contact">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="footer__widget">
+            <h6>Compte</h6>
+            <ul>
+              <li><a href="/Nouveau dossier/Compte.html">Mon compte</a></li>
+              <li><a href="/Nouveau dossier/Compte.html">Suivi des commandes</a></li>
+              <li><a href="/Nouveau dossier/Compte.html">Paiement</a></li>
+              <li><a href="/Nouveau dossier/Compte.html">Liste de souhaits</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="footer__newslatter">
+            <h6>NEWSLETTER</h6>
+            <form action="#">
+              <input type="text" placeholder="Email">
+              <button type="submit" class="site-btn">S'abonner</button>
+            </form>
+            <div class="footer__social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="row__copyriht">
+      <div class="container">
+        <div class="footer__copyright">
+          <div class="footer__copyright__text">
+            <p>Copyright © 2023 Tous droits réservés | Ce modèle a été créé avec Jang Liggey par BADARA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

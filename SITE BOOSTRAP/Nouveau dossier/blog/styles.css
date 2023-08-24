@@ -1,0 +1,153 @@
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+ 
+  /*--------end Navbar----*/
+/* Copiez ici le code CSS que je vous ai précédemment fourni */
+
+/* Blog Card styles */
+.blog-card {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .blog-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-card h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Sidebar styles */
+  /* Ajoutez ici les styles pour la sidebar */
+  /* Sidebar styles */
+.sidebar {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .sidebar a:hover {
+    color: #007bff;
+  }
+  
+  .sidebar .archive {
+    margin-top: 20px;
+  }
+  
+  .sidebar .archive h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar .archive ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .sidebar {
+      padding: 10px;
+    }
+  
+    .sidebar h4 {
+      font-size: 18px;
+    }
+  }
+  
+   /* Footer Section styles */
+   .footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  .footer__about p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .footer__widget h6 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer__widget ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__widget ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer__newslatter input[type="text"],
+  .footer__newslatter button {
+    padding: 10px;
+    border: none;
+  }
+  
+  .footer__newslatter button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer__newslatter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer__social {
+    margin-top: 10px;
+  }
+  
+  .footer__social a {
+    margin-right: 10px;
+    color: #555;
+    font-size: 18px;
+  }
+  
+  /* Copyright Section */
+  .row__copyriht {
+    background-color: #c20b0b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .row__copyriht p {
+    font-size: 14px;
+    margin: 0;
+  }
